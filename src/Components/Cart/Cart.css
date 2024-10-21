@@ -1,0 +1,18 @@
+.cart-container img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.cart-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
